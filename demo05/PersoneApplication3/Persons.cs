@@ -26,7 +26,7 @@ namespace PersoneApplication3
             persons.Add(person);
         }
 
-        public Person Getperson(int index)
+        public Person GetPerson(int index)
         {
             if (index < persons.Count) return persons.ElementAt(index);
             else return null;

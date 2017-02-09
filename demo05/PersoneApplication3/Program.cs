@@ -22,7 +22,7 @@ namespace PersoneApplication3
             myFriends.AddPerson(person2);
             myFriends.AddPerson(person3);
 
-        }
+       
 
 
         // get one person
@@ -32,7 +32,7 @@ namespace PersoneApplication3
             Console.WriteLine(person4.ToString());
             } else
             {
-            Console.WriteLine("There is no person at that position!"=;)
+                Console.WriteLine("There is no person at that position!");
     }
 // print collection
 myFriends.PrintData();
@@ -48,3 +48,4 @@ myFriends.PrintData();
     Console.WriteLine("Can't find person with that ssn");
     }
 }
+    }
